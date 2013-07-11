@@ -11,6 +11,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.homepage      = 'http://github.com/rsslldnphy/either'
 
+  s.add_runtime_dependency "optional"
   s.add_development_dependency "rake"
   s.add_development_dependency "rspec"
   s.add_development_dependency "simplecov"
