@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.test_files    = s.files.grep(%r{^(test|spec|features)/})
   s.require_paths = ["lib"]
   s.homepage      = 'http://github.com/rsslldnphy/either'
+  s.license       = 'MIT'
 
   s.add_runtime_dependency "optional"
   s.add_development_dependency "rake"
