@@ -17,6 +17,14 @@ class Right
     Some[value]
   end
 
+  def left?
+    false
+  end
+
+  def right?
+    true
+  end
+
   private
 
   attr_reader :value

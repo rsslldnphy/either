@@ -17,6 +17,14 @@ class Left
     None
   end
 
+  def left?
+    true
+  end
+
+  def right?
+    false
+  end
+
   private
 
   attr_reader :value
