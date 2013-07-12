@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = 'either'
-  s.version       = '0.0.1'
+  s.version       = '0.0.2'
   s.date          = '2013-07-10'
   s.summary       = "Either types with pattern matching"
   s.description   = "Stop using exceptions for control flow!"
